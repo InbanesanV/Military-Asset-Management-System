@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://military-asset-management-system-idxp-4xcphv1i9.vercel.app/api/v1';
+const API_BASE_URL = 'https://military-asset-management-system-idxp-4xcphv1i9.vercel.app';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
