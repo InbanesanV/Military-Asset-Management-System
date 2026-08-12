@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 
 // ─── Security Middleware ────────────────────────────────────
 app.use(helmet());
-const allowedOrigins = (process.env.CORS_ORIGIN || 'http://localhost:5173,http://localhost:5174,https://military-asset-management-system-52d7uxm06-inbanesanvs-projects.vercel.app')
+const allowedOrigins = (process.env.CORS_ORIGIN || 'http://localhost:5173,https://military-asset-management-system-two-phi.vercel.app')
   .split(',')
   .map(o => o.trim());
 
